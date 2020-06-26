@@ -1,0 +1,14 @@
+.figure{
+transition: 0.20s;
+
+&:hover{
+transform: translateY(-10px);
+cursor: pointer;
+}
+
+a:hover{
+text-decoration:none;
+}
+}
+
+

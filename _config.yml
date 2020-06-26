@@ -1,0 +1,34 @@
+# Site Information
+license:          "CC By 4.0"
+license-url:      ""
+author:           "Bootstrap Crew"
+baseurl:          ""
+permalink:        pretty
+
+
+# Build settings
+markdown:         kramdown
+
+
+# Permalinks
+permalink:        /:title/
+
+
+#Server
+url:              https://bootstrapcrew.com
+enforce_ssl:      bootstrapcrew.com
+encoding:         UTF-8
+host:             localhost
+port:             4000
+
+# plugins
+plugins:
+               - jekyll-feed
+               - jekyll-paginate
+               - jekyll-sitemap
+  
+# Collections
+collections:
+  snippets:
+    output:      true
+    permalink:   /:collection/:title/

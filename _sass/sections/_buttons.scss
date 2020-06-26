@@ -1,0 +1,23 @@
+.btn{   
+font-weight:600;
+text-transform: uppercase;
+font-size:12px;
+letter-spacing:1px;
+}
+
+.btn-link{
+color:$black;
+background-color:$btc-btn-g1; 
+border:2px solid $btc-btn-g1;
+	  
+&:hover, &:focus, &:active{
+color:$black;
+border-color:$btc-btn-b1;
+text-decoration:none;
+background-color:$btc-btn-b1;
+}
+}
+
+
+
+ 

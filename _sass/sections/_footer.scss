@@ -1,0 +1,54 @@
+footer{
+background-color:$btc-blue;
+@include header-bg;
+color:$rgba-b6;
+font-size:14px;
+	
+.subscribe{
+padding:90px 0 70px ;
+}
+
+h5{
+@include heading-font;
+font-size:20px;
+font-weight:600;
+}
+
+ul.social-list{
+margin: 0;
+padding-left: 0;
+list-style: none;
+	
+li{
+margin:0 8px;	
+
+	
+a{
+display: block;
+color:$rgba-b4;
+font-size:20px;
+text-align: center;
+
+&:hover{
+color:$rgba-b6;
+}
+}
+} 
+}
+	 
+.list-item {
+display: inline-block;
+}
+
+.tagline{
+@include heading-font;
+background-color:$rgba-b2;
+letter-spacing:1px;
+color:$white;
+ 
+a{
+font-weight:700;
+color:$btc-yellow;
+}
+}
+}

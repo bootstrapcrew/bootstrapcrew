@@ -1,0 +1,21 @@
+@mixin body-font{
+font-family:  'Open Sans', sans-serif;
+}
+
+@mixin heading-font{
+font-family: 'Nunito', sans-serif;
+}
+
+@mixin box{
+-webkit-box-shadow:1px 1px 1px rgba(0, 0, 0, 0.2);
+-moz-box-shadow:1px 1px 1px rgba(0, 0, 0, 0.2);
+box-shadow:1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+@mixin header-bg{
+background-image: -webkit-linear-gradient(bottom left, #ffff3a, #b4ff6c, #6df89b, #20ebc2, #03dada);
+background-image: -o-linear-gradient(bottom left, #ffff3a, #b4ff6c, #6df89b, #20ebc2, #03dada);
+background-image: -moz-linear-gradient(bottom left, #ffff3a, #b4ff6c, #6df89b, #20ebc2, #03dada);
+background-image: linear-gradient(to top right, #ffff3a, #b4ff6c, #6df89b, #20ebc2, #03dada);
+}
+

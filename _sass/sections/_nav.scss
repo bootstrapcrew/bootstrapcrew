@@ -1,0 +1,67 @@
+/*Navigation*/
+
+.btc-navbar{
+background:$rgba-b1;
+@include heading-font;
+	
+.navbar-brand{
+font-size:20px;
+font-weight:700;
+color:$white;
+	 
+&:hover ,&:focus ,&:active{
+color:$rgba-b6;
+} 
+}
+
+.navbar-nav .nav-link{	  
+color:$white;
+padding-right: 20px;
+font-size:15px;
+	   
+&:hover ,&:focus ,&:active{
+color:$rgba-b6;
+}  
+}
+   
+button:focus, .button:focus{
+outline: none !important;
+}
+}
+
+.navbar-light .navbar-toggler{
+color:$white;
+border:none;
+}
+
+.dropdown-menu{
+border-color:$rgba-b1;
+border-radius:0;
+font-size:14px;
+margin-top:16px;
+background-color:$white;
+   
+.dropdown-item{
+color:$rgba-b6;
+font-size:14px;
+font-weight:600;
+	  	       
+&:hover{
+color:$black;
+background-color:transparent;
+}
+	  
+&:focus ,&:active{
+background-color:transparent;
+color:$black;
+
+}
+}
+
+.dropdown-divider{
+border-top:1px solid $rgba-b1;
+}
+}
+.dropdown-header{
+font-weight:500;
+}

@@ -1,0 +1,26 @@
+body{
+position:relative;
+@include body-font;
+color:$grey-2;
+font-size:18px;
+background-color:$white;
+}
+
+h1,h2,h3,h4,h5,h6{
+color:$grey-1;
+@include heading-font;
+font-weight:700;
+}
+
+h1{
+font-size:30px;
+}
+
+.btc-p1{
+padding:80px 0;
+}
+
+.btc-p2{
+padding:60px 0;
+}
+
