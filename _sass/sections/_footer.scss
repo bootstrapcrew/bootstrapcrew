@@ -1,7 +1,6 @@
 footer{
 background-color:$btc-blue;
 @include header-bg;
-color:$rgba-b6;
 font-size:14px;
 	
 .subscribe{
@@ -10,8 +9,9 @@ padding:90px 0 70px ;
 
 h5{
 @include heading-font;
+color:$rgba-b5;
 font-size:20px;
-font-weight:600;
+font-weight:700;
 }
 
 ul.social-list{
