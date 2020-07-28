@@ -53,12 +53,27 @@ padding-bottom:80px;
 h1{
 padding-top:80px;
 font-size:30px;
-color:$rgba-b6;
+color:$rgba-b5;
 }
-   
+
+
 p{
 font-size:14px;
-color:$rgba-b6; 
+color:$rgba-b6;
+
+
+a{
+font-size:16px;
+text-decoration:none;
+color:$rgba-b6;
+
+&:hover{
+color:$rgba-b6;
+border-bottom:2px solid $rgba-b5;
+}
+
+}
+ 
 }
  
 .header-bottom{
