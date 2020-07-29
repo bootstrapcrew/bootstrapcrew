@@ -10,10 +10,6 @@ layout:		       overview-snippet
 type:              snippet
 rank:              2
 
-image: 
-path:              /assets/img/screenshots/snippets/pricing-table.png
-width:             641
-height:            310 
 
 jsfiddle-id:       "2mLbvshj"
 
