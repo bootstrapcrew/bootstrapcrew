@@ -12,7 +12,11 @@
   
   <!-- Page Meta Title -->
   <title>
-    {{ page.meta-title }} - Bootstrap Crew
+    {% if page.meta-title == "Bootstrap Crew" %}
+      {{ page.meta-title }} -  Free Bootstrap Code Snippets and Layouts
+     {% else %}
+      {{ page.meta-title }} - Bootstrap Crew
+    {% endif %}
   </title> 
   
   <!-- Page Meta Description -->
@@ -47,10 +51,10 @@
   {% if page.og-image %}
   <meta property="og:image" content="{{ page.og-image }}">
   {% else %}
-  <meta property="og:image" content="https://bootstrapcrew.com/assets/img/branding/btc-logo.png">
+  <meta property="og:image" content="https://bootstrapcrew.com/assets/img/brand/btc-logo.png">
   {% endif %}
   <meta property="og:url" content="https://bootstrapcrew.com{{ page.url | replace:'index.html','' }}">
-  <meta property="og:image:alt" content="{% if page.meta-title == " Bootstrap Crew " %}{{ page.meta-title }} - Free Bootstrap Code Snippets{% else %}{{ page.meta-title }}{% endif %}">
+  <meta property="og:image:alt" content="">
 
 
 
@@ -60,7 +64,7 @@
   <meta name="twitter:image" content="{{ page.twitter-image }}">
   {% else %}
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="https://bootstrapcrew.com/assets/img/branding/btc-logo.png">
+  <meta name="twitter:image" content="https://bootstrapcrew.com/assets/img/brand/btc-logo.png">
   {% endif %}
   <meta name="twitter:site" content="@bootstrap_crew">
 
