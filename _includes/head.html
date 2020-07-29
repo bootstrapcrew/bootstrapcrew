@@ -44,28 +44,19 @@
     <meta name="msapplication-config" content="/assets/img/icons/browser-config.xml" >
 	
   <!-- Open Graph -->
-  {% if page.is_overview-snippet %}
-  {% assign type = "snippet" %}
-  {% else %}
-  {% assign type = "website" %}
-  {% endif %}
   <!-- http://ogp.me/ -->
-  <meta property="og:type" content="{{ type }}" />
-  <meta property="og:url" content="https://bootstrapcrew.com{{ page.url | replace:'index.html','' }}" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
-  {% if page.image %}
-  <meta property="og:image" content="https://bootstrapcrew.com{{ page.image.path }}" />
-  <meta property="og:image:width" content="{{ page.image.width }}" />
-  <meta property="og:image:height" content="{{ page.image.height }}" />
+ <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.meta-title }}">
+  <meta property="og:site_name" content="Bootstrap Crew">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="{{ page.meta-description }}">
+  {% if page.og-image %}
+  <meta property="og:image" content="{{ page.og-image }}">
   {% else %}
   <meta property="og:image" content="https://bootstrapcrew.com/assets/img/brand/btc-logo.png">
   {% endif %}
-  
-  {% if page.is_overview-snippet %}
-  <meta property="og:site_name" content="{{ site.title }}" />
-  {% endif %}
-
+  <meta property="og:url" content="https://bootstrapcrew.com{{ page.url | replace:'index.html','' }}">
+  <meta property="og:image:alt" content="{% if page.meta-title == " Bootstrap Crew " %}{{ page.meta-title }} - Free Bootstrap Code Snippets and Layouts {% else %} {{ page.meta-title }} {% endif %}">
 
   <!-- Twitter Card -->
   {% if page.twitter-image %}
