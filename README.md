@@ -1,6 +1,6 @@
 # Bootstrap Crew
 
-Bootstrap Crew offers free elegant snippets built with HTML 5, CSS 3 and Bootstrap 4. We create well-designed bootstrap snippets that can be effectively used in any of your personal and commercial web projects.
+Bootstrap Crew offers free elegant snippets and layouts built with HTML 5, CSS 3 and Bootstrap 4. We create well-designed bootstrap snippets and layouts that can be effectively used in any of your personal and commercial web projects.
 
 
 ## License
