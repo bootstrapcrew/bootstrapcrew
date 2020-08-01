@@ -2,48 +2,6 @@
 background-color:$btc-blue; 
 @include header-bg;
 
-.main-header{
-line-height:90vh;
-height:90vh;
-height:90%;
-width:100%;
-   
-.vh-align{
-display: inline-block;
-line-height: 1.2;
-vertical-align: middle;  
-}
-
-h1{
-color:$rgba-b6;
-}
-
-p a{
-font-size:18px;
-text-decoration:none;
-color:$rgba-b6;
-
-&:hover{
-color:$rgba-b6;
-border-bottom:2px solid $rgba-b5;
-}
-}
-}
-
-
-@media screen and (min-width: 576px){
-h1{ 
-font-size:60px;
-}
-}
-
-@media screen and (min-width: 772px){  
-h1{
-font-size:60px;
-}
-}
-}
-
 .hero{
 position: relative;
 text-align:center;
@@ -114,6 +72,7 @@ font-weight:500;
 .active{
 color:$rgba-b6;
 font-weight:700;
+}
 }
 }
 }
