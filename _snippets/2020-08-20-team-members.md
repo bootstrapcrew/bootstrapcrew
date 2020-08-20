@@ -2,7 +2,7 @@
 
 title:            "Bootstrap 4 Team Members Layout Snippet"
 slug:              team-members
-src:               /snippets/full-page-image-header
+src:               /snippets/team-members
 description:	  "A Bootstrap 4 layout snippet for team members with rounded images and texts"
 img-thumbnail:	   /assets/img/screenshots/snippets/team-members.png
 img-desc:		   "Bootstrap 4 Team Members Layout Snippet"
