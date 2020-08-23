@@ -8,7 +8,7 @@ img-thumbnail:	   /assets/img/screenshots/snippets/pricing-table.png
 img-desc:		   "Bootstrap 4 Pricing Table with Custom Buttons and Hover Effects"
 layout:		       overview-snippet
 type:              snippet
-rank:              2
+rank:              6
 
 
 jsfiddle-id:       "2mLbvshj"
