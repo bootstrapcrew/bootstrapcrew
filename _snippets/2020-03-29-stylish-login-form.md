@@ -8,7 +8,7 @@ img-thumbnail:	    /assets/img/screenshots/snippets/stylish-login-form.png
 img-desc:		   "Bootstrap 4 Stylish Login Form Snippet with Custom Effects"
 layout:		    	overview-snippet
 type:               snippet
-rank:               5
+rank:               7
 
 
 jsfiddle-id:       "wz7mkxqr"
