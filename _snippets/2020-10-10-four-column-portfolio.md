@@ -3,7 +3,7 @@
 title:            "Four Column Bootstrap Portfolio Layout"
 slug:              four-column-portfolio
 src:               /snippets/four-column-portfolio
-description:	  "A four column portfolio layout with Bootstrap 4"
+description:	  "A four column portfolio layout snippet built with Bootstrap 4"
 img-thumbnail:	   /assets/img/screenshots/snippets/four-column-portfolio.png
 img-desc:		  "Four Column Bootstrap Portfolio Layout"
 layout:		       overview-snippet
@@ -14,6 +14,6 @@ rank:              3
 jsfiddle-id:      "58hp3sdz"
 
 meta-title:       "Four Column Bootstrap Portfolio Layout"
-meta-description: "A four column portfolio layout with Bootstrap 4"
+meta-description: "A four column portfolio layout snippet built with Bootstrap 4"
 
 ---
