@@ -45,6 +45,12 @@
 	
   <!-- Open Graph -->
    
+   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+   <meta property="og:title" content="{{ page.title }}" />
+   <meta property="og:description" content="{{ page.description }}" />
+   <meta property="og:image" content="{{ site.url }}{{ page.img-thumbnail }}" />
+   <meta property="og:type"  content="{{ page.og_type }}" />
+   
   <!-- Twitter Card -->
   {% if page.twitter-image %}
   <meta name="twitter:card" content="summary_large_image">
