@@ -44,12 +44,13 @@
     <meta name="msapplication-config" content="/assets/img/icons/browser-config.xml" >
 	
   <!-- Open Graph -->
-  
-{% if page.img-thumbnail %}
-    <meta property="og:image" content="{{ site.url }}/{{ page.header-img }}" />
-{% endif %}
-<meta property="og:description" content="{{ page.title }}" />
  
+ 
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:title" content="{{ page.meta-title }}" />
+<meta property="og:description" content="{{ page.description }}" />
+<meta property="og:image" content="{{ site.url }}{{ page.img-thumbnail }}" />
+<meta property="og:type"  content="website" />
  
   <!-- Twitter Card -->
   {% if page.twitter-image %}
