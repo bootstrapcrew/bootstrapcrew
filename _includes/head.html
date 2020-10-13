@@ -44,7 +44,7 @@
     <meta name="msapplication-config" content="/assets/img/icons/browser-config.xml" >
 	
   <!-- Open Graph -->
-   <meta property="og:url" content="https://bootstrapcrew.com{{ page.url | replace:'index.html','' }}" />
+   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
    <meta property="og:title" content="{{ page.title }}" />
    <meta property="og:description" content="{{ page.description }}" />
    {% if page.img-thumbnail %}
