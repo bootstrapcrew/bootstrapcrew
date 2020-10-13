@@ -13,7 +13,7 @@ layout: default
 	  <h2 class="mb-4"> Latest Snippets </h2>
 	    <div class="row">
 		{% assign snippets_sorted = site.snippets | sort: 'rank' %}
-        {% for snippet in snippets_sorted reversed limit: 6 %}
+        {% for snippet in snippets_sorted reversed limit: 6 offset:2 %}
 		  <div class="col-12 col-md-6">  
 		    <figure class="figure img-thumbnail shadow-sm bg-light mb-5 mt-2">
 			 <a href="{{ snippet.src }}">
