@@ -49,7 +49,7 @@
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ page.meta-description }}">
     {% if page.img-thumbnail %}
-    <meta property="og:image" content="{{ page.img-thumbnail}}">
+    <meta property="og:image" content="{{ page.img-thumbnail }}">
     {% else %}
     <meta property="og:image" content="https://bootstrapcrew.com/assets/img/brand/bootstrap-crew-banner.png">
     {% endif %}
@@ -57,15 +57,16 @@
     <meta property="og:image:height" content="630" />
     <meta property="og:url" content="https://bootstrapcrew.com{{ page.url | replace:'index.html','' }}">
     
-
-  <!-- Twitter Card -->
-  {% if page.twitter-image %}
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="{{ page.twitter-image }}">
-  {% else %}
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:image" content="https://bootstrapcrew.com/assets/img/brand/bootstrap-crew-banner.png">
-  {% endif %}
-  <meta name="twitter:site" content="@bootstrap_crew">
-
+  <!-- Twitter cards -->
+    <meta name="twitter:site" content="@bootstrap_crew">
+    <meta name="twitter:title"   content="{{ page.meta-title  }}">
+    <meta name="twitter:description" content="{{  page.meta-description }}">
+    {% if page.img-thumbnail %}
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.img-thumbnail }}">
+    {% else %}
+    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:image" content="https://bootstrapcrew.com/assets/img/brand/bootstrap-crew-banner.png">
+    {% endif %}
+  <!-- end of Twitter card -->
 </head>
