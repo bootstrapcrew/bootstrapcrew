@@ -9,7 +9,7 @@ padding:90px 0 70px ;
 
 h5{
 @include heading-font;
-color:$rgba-b5;
+color:$rgba-b6;
 font-size:20px;
 font-weight:700;
 }
@@ -25,12 +25,12 @@ margin:0 8px;
 	
 a{
 display: block;
-color:$rgba-b4;
+color:$rgba-b6;
 font-size:20px;
 text-align: center;
 
 &:hover{
-color:$rgba-b6;
+color:$rgba-b7;
 }
 }
 } 
