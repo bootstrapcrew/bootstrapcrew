@@ -21,7 +21,7 @@ color:$rgba-b5;
 
 p{
 font-size:14px;
-color:$rgba-b6;
+color:$grey-1;
 
 
 a{
@@ -30,8 +30,8 @@ text-decoration:none;
 color:$rgba-b6;
 
 &:hover{
-color:$rgba-b6;
-border-bottom:2px solid $rgba-b5;
+color:$grey-3;
+border-bottom:2px solid $grey-3;
 }
 }
 }
