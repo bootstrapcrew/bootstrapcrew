@@ -7,14 +7,14 @@ meta-description: A complete list of Bootstrap related resources and plugins fro
 permalink: /bootstrap-resources/
 ---
 
-<!-- Recourses Content -->
-
-<section class="resources btc-p1">
+<!-- Recourses Themes -->
+<section class="theme-resources pt-5">
   <div class="container">
     <div class="row">
       <div class="col-lg-11 mx-auto">
+	  <h2 class="text-center py-4"> Bootstrap Themes and Templates </h2>
 	    <div class="row"> 
-		{% for resource in site.data.resources-bootstrap %}
+		{% for resource in site.data.bootstrap-themes %}
 	      <div class="col-md-6 mb-4">
 		    <div class="card h-100">
 		      <div class="card-body">
@@ -36,4 +36,65 @@ permalink: /bootstrap-resources/
   </div>
 </section> 
 
+<!-- Recourses Snippet -->
+
+<section class="snippet-resources pt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+	  <h2 class="text-center py-4"> Bootstrap Code Snippets and layouts </h2>
+	    <div class="row"> 
+		{% for resource in site.data.bootstrap-snippets %}
+	      <div class="col-md-6 mb-4">
+		    <div class="card h-100">
+		      <div class="card-body">
+                <div class="media pt-3">
+                  <img class="mr-3 border" src="{{ resource.image }}" width="96px" height="96px" alt="{{ resource.img-desc }}"> 
+                  <div class="media-body">
+                    <h6 class="mb-3"><a href="{{ resource.link }}" rel="nofollow" target="_blank"> {{ resource.name }} </a></h6>
+                    <p class="description"> {{ resource.description }} </p>
+			        <p class="link mt-1"><a href="{{ resource.link }}" rel="nofollow" target="_blank"> Check it out &rarr; </a></p>
+		          </div>   
+                </div>
+		      </div>
+		    </div>
+		  </div>
+		 {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<!-- Recourses Showcase -->
+
+<section class="showcase-resources py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+	  <h2 class="text-center py-4"> Bootstrap Showcases </h2>
+	    <div class="row"> 
+		{% for resource in site.data.bootstrap-showcases %}
+	      <div class="col-md-6 mb-4">
+		    <div class="card h-100">
+		      <div class="card-body">
+                <div class="media pt-3">
+                  <img class="mr-3 border" src="{{ resource.image }}" width="96px" height="96px" alt="{{ resource.img-desc }}"> 
+                  <div class="media-body">
+                    <h6 class="mb-3"><a href="{{ resource.link }}" rel="nofollow" target="_blank"> {{ resource.name }} </a></h6>
+                    <p class="description"> {{ resource.description }} </p>
+			        <p class="link mt-1"><a href="{{ resource.link }}" rel="nofollow" target="_blank"> Check it out &rarr; </a></p>
+		          </div>   
+                </div>
+		      </div>
+		    </div>
+		  </div>
+		 {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+<br><br>
+<!-- Recourses Developement Tools -->
  
