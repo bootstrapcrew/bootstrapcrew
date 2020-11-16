@@ -1,0 +1,10 @@
+- name:        Bootstrap Expo
+  link:        https://expo.getbootstrap.com/
+  description: A showcase of beautiful and inspiring uses of the bootstrap framework curated by @mdo.
+  image:       /assets/img/resources/bootstrap-expo.png
+  
+- name:        Built with Bootstrap
+  link:        https://builtwithbootstrap.com/
+  description: A showcase of sites, apps and tools built with Bootstrap.
+  image:       /assets/img/resources/built-with-bootstrap.png
+

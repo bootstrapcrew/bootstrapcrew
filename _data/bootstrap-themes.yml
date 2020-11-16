@@ -1,0 +1,16 @@
+- name:        Bootswatch
+  link:        https://bootswatch.com/
+  description: A collection of open source themes swatches for Bootstrap.
+  image:       /assets/img/resources/bootswatch.png
+
+- name:        Start Bootstrap
+  link:        https://startbootstrap.com/
+  description: A collection of free Bootstrap themes, templates, and code snippets.
+  image:       /assets/img/resources/start-bootstrap.png
+
+- name:        Bootstrapious
+  link:        https://bootstrapious.com/
+  description: A list of exclusive free Bootstrap templates and themes.
+  image:       /assets/img/resources/bootstrapious.png
+
+

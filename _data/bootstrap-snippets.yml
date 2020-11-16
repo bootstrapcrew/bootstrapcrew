@@ -1,0 +1,11 @@
+- name:        Bootstrap Crew
+  link:        https://bootstrapcrew.com/
+  description: A curated gallery of free Bootstrap 4 code snippets and layouts designed by Bootstrap Crew.
+  image:       /assets/img/resources/bootstrap-crew.png
+  
+- name:        Bootsnipp
+  link:        https://bootsnipp.com/
+  description: An element gallery of open source code snippets for Bootstrap framework.
+  image:       /assets/img/resources/bootsnipp.png
+
+
