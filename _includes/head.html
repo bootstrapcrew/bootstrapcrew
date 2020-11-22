@@ -47,12 +47,7 @@
 	<meta property="og:title" content="{{ page.meta-title }}">
     <meta property="og:site_name" content="Bootstrap Crew">
     <meta property="og:type" content="website">
-    <meta property="og:description"
-    content="{% if page.description %}
-        {{ page.description | strip_html | strip_newlines | truncate: 160 }}
-      {% else %}
-        {{ site.description }}
-      {% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" 
     {% if page.img-thumbnail %}
     <meta property="og:image" content="{{ page.img-thumbnail }}">
     {% else %}
