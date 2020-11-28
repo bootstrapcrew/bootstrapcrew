@@ -17,6 +17,15 @@ background-color:$btc-btn-b1;
 }
 }
 
-
-
- 
+.btn-nav{
+color:$white;
+background-color:none; 
+border:2px solid $white;
+	  
+&:hover, &:focus, &:active{
+color:$btc-yellow;
+border-color:$btc-yellow;
+text-decoration:none;
+background-color:none;
+}
+}
