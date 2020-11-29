@@ -1,3 +1,32 @@
+# Premium Bootstrap Themes and Templates
+
+- name:        Bootstrap Themes
+  link:        https://themes.getbootstrap.com/
+  description: Sell or purchase Bootstrap themes, the team behind Bootstrap Themes reviews every new theme and update against a set of guidelines they wrote. -  built by or reviewed by Bootstrap Creator's
+  image:       /assets/img/resources/bootstrap.png
+
+- name:        Creative Tim
+  link:        https://www.creative-tim.com/templates/?ref=bootstrapcrew.com
+  description: One of the top premium vendors, well-known for creating high quality premium Bootstrap themes, templates, UI kits and much more - All the products are developed by Creative Tim.
+  image:       /assets/img/resources/creative-tim.png
+
+- name:        BootstrapBay
+  link:        https://bootstrapbay.sjv.io/yJBYD
+  description: BootstrapBay is a third-party marketplace to sell and purchase fine quality of premium Bootstrap themes and templates.
+  image:       /assets/img/resources/bootstrap-bay.png
+
+- name:        Creative Market
+  link:        https://creativemarket.com/themes/bootstrap?u=BootstrapCrew
+  description: Creative Market is another third party marketplace that offers ready to use design assets. Creative Market has variety of premium Bootstrap themes and templates to choose from.
+  image:       /assets/img/resources/creative-market.png
+  
+- name:        Wrap Bootstrap
+  link:        https://wrapbootstrap.com/?ref=BootstrapCrew
+  description: Wrap Bootstrap is one of the oldest third party marketplace where designers can sell their own templates and themes based on Bootstrap framework.
+  image:       /assets/img/resources/wrap-bootstrap.png
+  
+# Free Bootstrap Themes and Templates
+
 - name:        Bootswatch
   link:        https://bootswatch.com/
   description: A collection of open source themes swatches for Bootstrap.
