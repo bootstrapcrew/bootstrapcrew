@@ -1,27 +1,30 @@
 body{
-position:relative;
-@include body-font;
-color:$grey-2;
-font-size:18px;
-background-color:$white;
+ position:relative;
+ @include body-font;
+ color:$grey-2;
+ font-size:18px;
+ background-color:$white;
+}
+
+a{
+ text-decoration: none;
 }
 
 h1,h2,h3,h4,h5,h6{
-color:$grey-2;
-@include heading-font;
-font-weight:700;
+ color:$grey-2;
+ @include heading-font;
+ font-weight:700;
 }
 
-
 h2{
-font-size:25px;
+ font-size:25px;
 }
 
 .btc-p1{
-padding:80px 0;
+ padding:80px 0;
 }
 
 .btc-p2{
-padding:60px 0;
+ padding:60px 0;
 }
 
