@@ -31,7 +31,10 @@ outline: none !important;
 
 .navbar-light .navbar-toggler{
 color:$white;
+
+&:hover ,&:focus ,&:active{
 border:none;
+}
 }
 
 .dropdown-menu{
