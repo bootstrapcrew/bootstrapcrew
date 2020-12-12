@@ -48,7 +48,7 @@ font-weight:600;
 	  	       
 &:hover{
 color:$black;
-background-color:transparent;
+background-color:$light-yellow;
 }
 	  
 &:focus ,&:active{
@@ -63,5 +63,6 @@ border-top:1px solid $rgba-b1;
 }
 }
 .dropdown-header{
+color:$grey-3;
 font-weight:500;
 }
