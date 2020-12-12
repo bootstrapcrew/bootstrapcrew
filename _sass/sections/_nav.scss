@@ -27,15 +27,11 @@ color:$btc-yellow;
 button:focus, .button:focus{
 outline: none !important;
 }
+}
 
-.navbar-toggler{
+.navbar-light .navbar-toggler{
 color:$white;
 border:none;
-
-&:hover ,&:focus ,&:active{
-border:none;
-outline: none !important;
-}
 }
 
 .dropdown-menu{
@@ -65,9 +61,7 @@ color:$black;
 .dropdown-divider{
 border-top:1px solid $rgba-b1;
 }
-
+}
 .dropdown-header{
 font-weight:500;
-}
-}
 }
